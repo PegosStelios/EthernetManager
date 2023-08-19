@@ -1,4 +1,5 @@
-﻿using System.Reflection;
+﻿using System.Resources;
+using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
@@ -6,7 +7,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Ethernet Manager")]
-[assembly: AssemblyDescription("This is a console based C# application, it does one thing, enable and disable your ethernet connection based upon user input.")]
+[assembly: AssemblyDescription("This is a console based application, it does one thing, enable and disable your ethernet connection based upon user input. It is freely distributed under GPLv3.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("pegos.net")]
 [assembly: AssemblyProduct("EthernetManager")]
@@ -34,3 +35,4 @@ using System.Runtime.InteropServices;
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: NeutralResourcesLanguage("en")]
